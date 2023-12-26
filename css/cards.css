@@ -11,18 +11,24 @@
     align-items: flex-end;
 }
 
+
 .card {
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    align-items: end;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff;
+    
     flex: 0 0 160px;
     height: 160px;
+    padding: 15px;
     margin-right: 10px;
     border-radius: 20px;
-    background: rgba(27, 29, 34, 0.70);
+    background: linear-gradient(180deg, rgba(142, 171, 217, 0.08) 0%, rgba(58, 71, 107, 0.8) 100%), url(../Rectangle\ 47.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
     backdrop-filter: blur(10px);
-    color: #fff;
+    
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
