@@ -21,9 +21,10 @@
 
 body {
     height: 100vh;
-    background-image: url(../Rectangle\ 47.png);
+    /* background-image: url(../Rectangle\ 47.png); */
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     font-family: "Roboto Flex";
     color: #fff;
 }
@@ -40,7 +41,7 @@ body {
     height: 6rem;
     display: flex;
     align-items: end;
-    padding: 0 6%;
+    padding: 0 8%;
     background: linear-gradient(180deg, rgba(20, 55, 75, 0.5) 0%, rgba(27, 46, 93, 0.45) 52.14%, rgba(33, 55, 110, 0.00) 100%);
     margin-bottom: 10px;
 }
@@ -73,7 +74,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
     gap: 25px;
-    background: linear-gradient(180deg, rgba(77, 92, 178, 0.00) 0%, #4C5BB1 100%);
+    /* background: linear-gradient(180deg, #4c5bb100 0%, #4C5BB1 100%); */
 }
 
 .navbar {

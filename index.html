@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -11,26 +11,22 @@
     <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/animation.css">
     <title>Com Amor,Tony</title>
 </head>
 
 <body id="body">
 
     <main class="app">
-        <header class="header">
-            <p>Lorem Ipsum</p>
+        <header class="header" id="header">
+            <p>Título</p>
         </header>
-        <main class="message">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non magna semper, rutrum massa nec, mollis orci. Nullam feugiat porta nibh sit amet sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris varius eros et massa sollicitudin, eu ultrices tellus elementum. Mauris turpis urna, tincidunt id sem eget, vulputate maximus urna. Fusce egestas nisl lectus, a cursus mauris tristique quis. Nulla id hendrerit urna. massa sollicitudin, eu ultrices tellus elementum. Mauris turpis urna, tincidunt id sem eget, vulputate maximus urna. Fusce egestas nisl lectus, a cursus mauris tristique quis.</p>
+        <main class="message" id="message">
+            <p>menssagem aqui</p>
         </main>
-        <footer class="nav">
+        <footer class="nav" id="nav">
             <div id="carousel-container">
                 <div id="carousel">
-                    <div class="card clicked" onclick="moveToFirst(1)">Card 1</div>
-                    <div class="card" onclick="moveToFirst(2)">Card 2</div>
-                    <div class="card" onclick="moveToFirst(3)">Card 3</div>
-                    <div class="card" onclick="moveToFirst(4)">Card 4</div>
-                    <div class="card" onclick="moveToFirst(5)">Card 5</div>
                 </div>
             </div>
             <nav class="navbar">
@@ -47,7 +43,10 @@
 
 
 
+    <script src="./js/information.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/login.js"></script>
 </body>
 
 </html>
