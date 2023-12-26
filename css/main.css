@@ -53,8 +53,8 @@ body {
 
 .message {
     text-align: justify;
-    padding: 5px 5%;
-    font-size: 1.25rem;
+    padding: 8px 8%;
+    font-size: 1.1rem;
     letter-spacing: -0.03125rem;
     max-height: 52%;
     max-width: 500px;
