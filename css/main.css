@@ -50,6 +50,7 @@ body {
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
+    animation: show 0.5s ease-out;
 }
 
 .message {

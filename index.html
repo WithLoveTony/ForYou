@@ -11,13 +11,24 @@
     <link rel="shortcut icon" href="./assets/Favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/animation.css">
     <title>Com Amor,Tony</title>
 </head>
 
 <body id="body">
-    <figure class="login">
-        
+    <figure class="loginbg" id="loginBg">
+        <figure class="login" id="login">
+            <header class="header headerLogin">
+                <p>Com Amor, Toni</p>
+            </header>
+            <form onsubmit="start(); return false;" class="loginContainer">
+                <p>Digite o seu código de acesso</p>
+                <input type="text" name="Digite seu código de acesso" id="acessCode">
+                <button class="loginBtn" type="submit">Entrar</button>
+            </form>
+        </figure>
     </figure>
     <main class="app">
         <header class="header" id="header">
@@ -37,7 +48,7 @@
             <nav class="navbar">
                 <article class="navItem" id="navItem1">Memórias <div class="line"></div>
                 </article>
-                <article class="navItem" style="opacity: 0.5; cursor: auto;" onclick="toggleFullScreen()">
+                <article class="navItem" style="opacity: 0.5; cursor: auto;">
                     <div class="line">
                 </article>
                 <article class="navItem itemOff" id="navItem2">Cartões <div class="line"></div>

@@ -1,0 +1,12 @@
+@media screen and (max-height: 719px) {
+    .header{
+        height: 4rem;
+    }
+    .navbar{
+        max-height: 60px;
+        padding-bottom: 10px;
+    }
+    .nav{
+        grid-template-rows: 1fr 0.2fr;
+    }
+  }
