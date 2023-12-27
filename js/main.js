@@ -8,6 +8,8 @@ const info = information
 let code = null;
 
 function update(currentCard) {
+    let greetingsRand = ['Obrigado!','Obrigado por tudo!','você é foda dms','Pprt amo você', "Obrigado por fazer meu ano melhor ❤"]
+    var randomNumG = (Math.floor(Math.random() * 5) + 1)-1;
 
     header.innerHTML = `<p>${code.nomeCard[currentCard]}</p>`
     message.innerHTML = `<p>${code.textoCard[currentCard]}</p>`
@@ -16,7 +18,7 @@ function update(currentCard) {
     header.style = `background: linear-gradient(180deg, hsla(${code.cor[currentCard]}, 40%, 15%, 0.7) 0%, hsla(${code.cor[currentCard]}, 40%, 15%, 0) 100%);`
 
     bigCard.innerHTML = `
-    <div class="bigCard" style='width:100%;height:100%;background: linear-gradient(180deg, hsla(${code.cor[currentCard]}, 29%, 50%, 0.1) 0%, hsla(${code.cor[currentCard]}, 29%, 50%, 0.6) 100%), url(${code.fotoCard[currentCard]}), lightgray 50% / cover no-repeat; background-size: cover; background-position: center;'>Obrigado por tudo!</div>`
+    <div class="bigCard" style='width:100%;height:100%;background: linear-gradient(180deg, hsla(${code.cor[currentCard]}, 29%, 50%, 0.1) 0%, hsla(${code.cor[currentCard]}, 29%, 50%, 0.6) 100%), url(${code.fotoCard[currentCard]}), lightgray 50% / cover no-repeat; background-size: cover; background-position: center;'>${greetingsRand[randomNumG]}</div>`
 }
 
 function gerenate() {
