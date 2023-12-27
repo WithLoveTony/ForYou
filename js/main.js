@@ -6,6 +6,7 @@ const nav = document.getElementById('nav');
 const body = document.getElementById('body');
 const info = information
 let code = null;
+
 function update(currentCard) {
     header.innerHTML = `<p>${code.nomeCard[currentCard]}</p>`
     message.innerHTML = `<p>${code.textoCard[currentCard]}</p>`
@@ -14,8 +15,7 @@ function update(currentCard) {
     header.style = `background: linear-gradient(180deg, hsla(${code.cor[currentCard]}, 40%, 15%, 0.7) 0%, hsla(${code.cor[currentCard]}, 40%, 15%, 0) 100%);`
 
     bigCard.innerHTML = `
-    <div class="bigCard" style='width:100%;height:100%;background: linear-gradient(180deg, hsla(${code.cor[currentCard]}, 29%, 50%, 0.1) 0%, hsla(${code.cor[currentCard]}, 29%, 50%, 0.6) 100%), url(${code.fotoCard[currentCard]}), lightgray 50% / cover no-repeat; background-size: cover; background-position: center;'>Obrigado por tudo!</div>
-    `
+    <div class="bigCard" style='width:100%;height:100%;background: linear-gradient(180deg, hsla(${code.cor[currentCard]}, 29%, 50%, 0.1) 0%, hsla(${code.cor[currentCard]}, 29%, 50%, 0.6) 100%), url(${code.fotoCard[currentCard]}), lightgray 50% / cover no-repeat; background-size: cover; background-position: center;'>Obrigado por tudo!</div>`
 }
 
 function gerenate() {
@@ -28,5 +28,3 @@ function gerenate() {
 
     }
 }
-
-

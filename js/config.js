@@ -17,7 +17,11 @@ function moveToFirst(cardNumber) {
     var index = Array.prototype.indexOf.call(cards, event.currentTarget);
 
     // Mover o carrossel para a posição do card clicado
-    var translateValue = -((170 + 0) * index); // Largura do card mais a margem
+    if(window.innerHeight<800){
+        var translateValue = -((170 + 0) * index); // Largura do card mais a margem
+    }else{
+        var translateValue = -((210 + 0) * index); // Largura do card mais a margem
+    }
     carousel.style.transform = 'translateX(' + translateValue + 'px)';
     update(cardNumber-1)
 }
