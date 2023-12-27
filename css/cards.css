@@ -31,6 +31,24 @@
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
+.bigCard{
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+#bigCard{
+    display: none;
+    align-items: end;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+    height: 70%;
+    width: 90%;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
 
 .card:hover {
     flex: 0 0 170px;

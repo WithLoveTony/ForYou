@@ -17,4 +17,5 @@ function findCode(codeF) {
 // findCode('TESTE')
 // findCode('MTTH3S')
 // findCode('RYH0SE')
-findCode('TRR3S')
+// findCode('TRR3S')
+findCode('C4RLTS')

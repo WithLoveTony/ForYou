@@ -35,3 +35,24 @@ function toggleFullScreen() {
         cancelFullScreen.call(doc);
     }
 }
+
+const navItem1 = document.getElementById('navItem1')
+    const navItem2 = document.getElementById('navItem2')
+
+    navItem1.addEventListener('click',()=>{
+        carousel.style.display = 'flex'
+        message.style.display = 'flex'
+        // header.style.display = 'flex'
+        navItem1.classList.remove('itemOff');
+        navItem2.classList.add('itemOff');
+        bigCard.style.display = 'none'
+        console.log('item1')
+    })
+    navItem2.addEventListener('click',()=>{
+        carousel.style.display = 'none'
+        message.style.display = 'none'
+        // header.style.display = 'none'
+        navItem2.classList.remove('itemOff');
+        navItem1.classList.add('itemOff');
+        bigCard.style.display = 'flex'
+    })

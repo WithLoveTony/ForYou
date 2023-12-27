@@ -60,6 +60,7 @@ body {
     max-height: 52%;
     max-width: 500px;
     overflow: auto;
+    animation: show 0.5s ease-out;
 }
 
 .carousel {
@@ -83,6 +84,7 @@ body {
     grid-template-columns: 1fr 0.35fr 1fr;
     justify-items: center;
     padding: 0 6% 10% 6%;
+    animation: show 1s ease-out;
 }
 
 .navItem {
