@@ -15,4 +15,6 @@ function findCode(codeF) {
     gerenate()
 }
 // findCode('TESTE')
-findCode('MTTH3S')
+// findCode('MTTH3S')
+// findCode('RYH0SE')
+findCode('TRR3S')

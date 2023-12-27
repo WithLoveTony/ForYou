@@ -25,7 +25,7 @@
     padding: 15px;
     margin-right: 10px;
     border-radius: 20px;
-    background: linear-gradient(180deg, rgba(142, 171, 217, 0.08) 0%, rgba(58, 71, 107, 0.95) 100%), url(../Rectangle.png), lightgray 50% / cover no-repeat;
+    /* background: linear-gradient(180deg, rgba(142, 171, 217, 0.08) 0%, rgba(58, 71, 107, 0.95) 100%), url(../Rectangle.png), lightgray 50% / cover no-repeat; */
     backdrop-filter: blur(10px);
     
     transition: all 0.5s ease-in-out;
