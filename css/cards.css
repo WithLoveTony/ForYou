@@ -1,6 +1,6 @@
 #carousel-container {
     overflow-x: hidden;
-    padding-left: 5%;
+    padding-left: 8%;
     width: 100%;
     white-space: nowrap;
 }
@@ -48,6 +48,7 @@
     width: 90%;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+    animation: slideInFromRight 0.5s ease-out;
 }
 
 .card:hover {

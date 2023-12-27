@@ -8,6 +8,7 @@ const info = information
 let code = null;
 
 function update(currentCard) {
+
     header.innerHTML = `<p>${code.nomeCard[currentCard]}</p>`
     message.innerHTML = `<p>${code.textoCard[currentCard]}</p>`
     body.style = `background-image: url(${code.fotoCard[currentCard]});`

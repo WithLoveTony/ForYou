@@ -1,3 +1,9 @@
+@media screen and (max-height: 650px){
+    .message {
+        height: 45%;
+    }
+}
+
 @media screen and (max-height: 719px) {
     .header {
         height: 4rem;

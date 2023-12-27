@@ -29,7 +29,7 @@ function findCode(codeF) {
 
 function start() {
     findCode(acessCode.value)
-    toggleFullScreen()
+    // toggleFullScreen()
 }
 
 var randomNum = Math.floor(Math.random() * 360) + 1;

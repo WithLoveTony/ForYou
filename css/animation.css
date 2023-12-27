@@ -25,3 +25,7 @@
       opacity: 0.1;
     }
   }
+
+.showOffAni{
+  animation: showOff 1s ease-out;
+}
