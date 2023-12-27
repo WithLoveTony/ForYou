@@ -45,16 +45,16 @@
         font-size: 1.2rem;
     }
     .card {
-        flex: 0 0 210px;
-        height: 210px;
+        flex: 0 0 200px;
+        height: 200px;
     }
 
     .card:hover {
-        flex: 0 0 210px;
+        flex: 0 0 200px;
     }
 
     .card.clicked {
-        flex: 0 0 220px;
-        height: 220px;
+        flex: 0 0 210px;
+        height: 210px;
     }
 }
