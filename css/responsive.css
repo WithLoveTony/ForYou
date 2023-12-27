@@ -1,6 +1,25 @@
 @media screen and (max-height: 650px){
+    .header {
+        height: 3.6rem;
+        margin-bottom: 8px;
+    }
     .message {
         height: 45%;
+    }
+    .nav{
+        gap: 15px;
+    }
+}
+@media screen and (max-height: 850px) and (max-width:420px){
+    .header {
+        height: 4rem;
+        margin-bottom: 8px;
+    }
+    .message {
+        height: 48%;
+    }
+    .nav{
+        gap: 15px;
     }
 }
 
