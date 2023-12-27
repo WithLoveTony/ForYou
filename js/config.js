@@ -46,7 +46,7 @@ const navItem1 = document.getElementById('navItem1')
     navItem1.addEventListener('click',()=>{
         carousel.style.display = 'flex'
         message.style.display = 'flex'
-        header.style.color = '#fff'
+        // header.style.color = '#fff'
         navItem1.classList.remove('itemOff');
         navItem2.classList.add('itemOff');
         bigCard.style.display = 'none'
@@ -55,7 +55,7 @@ const navItem1 = document.getElementById('navItem1')
     navItem2.addEventListener('click',()=>{
         carousel.style.display = 'none'
         message.style.display = 'none'
-        header.style.color = '#fff0'
+        // header.style.color = '#fff0'
         navItem2.classList.remove('itemOff');
         navItem1.classList.add('itemOff');
         bigCard.style.display = 'flex'

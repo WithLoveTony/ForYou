@@ -6,10 +6,10 @@
 const information = {
   MTTH3S: {
     nome: "Tetheu",
-    fotoCard: ["https://pbs.twimg.com/media/GCSyoxIWEAAJYyE?format=jpg&name=4096x4096", "https://pbs.twimg.com/media/GCUQ042WcAAwjOT?format=jpg&name=4096x4096", 'https://pbs.twimg.com/media/GCS0K3dWQAAsQgx?format=jpg&name=large', 'https://pbs.twimg.com/media/GCS0LDpWoAAGJO5?format=jpg&name=large', 'https://pbs.twimg.com/media/GCS0KqNWQAAF2GT?format=jpg&name=large'],
-    nomeCard: ["nome1", "nome2", "nome2", '', ''],
+    fotoCard: ["https://pbs.twimg.com/media/GCSyoxIWEAAJYyE?format=jpg&name=4096x4096", "https://pbs.twimg.com/media/GCUQ042WcAAwjOT?format=jpg&name=4096x4096",'https://pbs.twimg.com/media/GCSyp2tW0AAotPy?format=jpg&name=4096x4096', 'https://pbs.twimg.com/media/GCS0K3dWQAAsQgx?format=jpg&name=large', 'https://pbs.twimg.com/media/GCS0LDpWoAAGJO5?format=jpg&name=large', 'https://pbs.twimg.com/media/GCS0KqNWQAAF2GT?format=jpg&name=large'],
+    nomeCard: ["nome1", "nome2", "nome2", '', '',''],
     textoCard: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus volutpat lorem vitae auctor. Nam quam erat, faucibus ac justo non, dignissim luctus velit. Proin convallis nibh sit amet nibh porta interdum. Quisque pharetra aliquet luctus. Sed ac euismod dolor, et rutrum mi. Maecenas consectetur, quam sed pellentesque varius, diam tellus dictum diam, quis tristique libero urna at magna. Etiam mattis auctor libero eu posuere.et rutrum mi. Maecenas consectetur, quam sed pellentesque varius, diam tellus dictum diam, quis tristique libero urna at magna. Etiam mattis auctor libero eu posuere.", "texto2", "nome2"],
-    cor: ['32', '174', '220', '200', '10']
+    cor: ['22', '184','200', '220', '200', '10']
   },
   TRR3S: {
     nome: "Julinha",

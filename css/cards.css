@@ -39,16 +39,17 @@
 }
 #bigCard{
     display: none;
+    z-index: 2;
     align-items: end;
+    height: 70%;
+    width: 84%;
     margin: 0 auto;
     font-weight: 600;
     font-size: 2rem;
     color: #fff;
-    height: 70%;
-    width: 90%;
     transition: all 0.5s ease-in-out;
-    cursor: pointer;
     animation: slideInFromRight 0.5s ease-out;
+    cursor: pointer;
 }
 
 .card:hover {

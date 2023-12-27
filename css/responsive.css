@@ -16,6 +16,7 @@
 
     .nav {
         grid-template-rows: 1fr 0.2fr;
+        max-height: 260px;
     }
 }
 
