@@ -14,7 +14,7 @@ const information = {
       'texto 4',
       'texto 5',
       'Antes que este ano termine, eu só quero agradecer por hoje poder te chamar de melhor amigo, o amigo mais incrivel que eu poderia pedir. Obrigado por ouvir meus desabafos e surtos aleatórios. Obrigado por sempre estar lá para mim quando eu precisava de alguém para conversar ou coisa do tipo. Acredito que nada vai poder expressar o quão sortudo e grato eu sou por ter um amigo foda como você. Quero que você lembre eu vou estar aqui sempre que precisar de um ombro para se apoiar, alguém para desabafar ou até mesmo alguém para ouvir as piadas mais merdas e ofensivas possíveis kkkkk, pprt cara eu amo você.'],
-    cor: ['22', '184', '200', '220', '200', '10']
+    cor: ['22', '184',  '220','200', '200', '10']
   },
   TRR3S: {
     nome: "Julinha",

@@ -23,7 +23,13 @@ function moveToFirst(cardNumber) {
         var translateValue = -((200 + 0) * index); // Largura do card mais a margem
     }
     carousel.style.transform = 'translateX(' + translateValue + 'px)';
-    update(cardNumber-1)
+    message.innerHTML = ''
+    setTimeout(()=>{
+        message.style.display = 'none'
+        setTimeout(()=>{
+            update(cardNumber-1)
+        }, 1);
+    }, 1);
 }
 
 function toggleFullScreen() {
@@ -60,3 +66,7 @@ const navItem1 = document.getElementById('navItem1')
         navItem1.classList.add('itemOff');
         bigCard.style.display = 'flex'
     })
+
+    function scroll(){
+        message.scrollTop()
+    }
