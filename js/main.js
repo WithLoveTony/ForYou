@@ -8,7 +8,7 @@ const info = information
 let code = null;
 
 function update(currentCard) {
-    let greetingsRand = ['Obrigado!','Obrigado por tudo!','você é foda dms','Pprt amo você', "Obrigado por fazer meu ano melhor ❤"]
+    let greetingsRand = ['Obrigado por fazer parte do meu ano.','Obrigado por tudo d vdd','Você é foda dms','Pprt amo você', "Obrigado por fazer meu ano melhor ❤"]
     var randomNumG = (Math.floor(Math.random() * 5) + 1)-1;
 
     header.innerHTML = `<p>${code.nomeCard[currentCard]}</p>`
